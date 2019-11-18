@@ -1,0 +1,187 @@
+body{
+    font-family: "lato", sans-serif;
+    font-size: 16px;
+    min-width: 320px;
+}
+.container{
+width: 48%;
+max-width: 912px;
+margin: 0 auto;
+}
+.header{
+    min-height: 100vh;
+    background: url(../images_lesson7/mainbackgraund.jpg) no-repeat #abb6ca center/cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.header__logo{
+    margin-bottom: 90px;
+}
+.header__text{
+    margin-bottom: 50px;
+    font-size: 54px;
+    letter-spacing: 9px;
+    color: #ffffff;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.header__description{
+    margin-bottom: 240px;
+    font-size: 15px;
+    line-height: 2;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.about{
+    padding: 160px 0;
+    background-color: #fff;
+}
+.border-section{
+    border: 2px solid #000000;
+    border-top: none;
+    padding: 0 80px 30px;
+    position: relative;
+    color: #3c3c3c;
+    text-align: center;
+}
+.border-section::before,
+.border-section::after{
+    content: '';
+    display: block;
+    height: 2px;
+    background-color: #000;
+    position: absolute;
+    top: 0;
+}
+.border-section::before{
+    left: 0;
+    right: 80%;
+}
+
+.border-section::after{
+    right: 0;
+    left: 80%;
+}
+.border-section__title{
+    font-size: 34px;
+    letter-spacing: 5px;
+    font-weight: 700;
+    text-align: center;
+    transform: translateY(-50%)
+}
+.border-section__description{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 300;
+    text-align: center;
+}
+.service{
+    padding: 135px 0;
+    background: url(../images_lesson7/background_service.png) no-repeat #abb6ca center/cover;
+    
+}
+.border-section--white{
+    color:#fff;
+    border-color: #fff;
+}
+
+.border-section--white::before,
+.border-section--white::after {
+    background-color: #fff;
+}
+.whatwedo{
+    padding: 120px 0;
+    background-color: #fff;
+}
+.wwdtitle{
+    font-size: 20px;
+    letter-spacing: 3px;
+    color: #3c3c3c;
+    font-weight: 700;
+    padding: 40px 0;
+}
+.border-section-block{
+    padding-top: 100px;
+    text-align: center;
+}
+.blocks{
+    display: flex;
+    flex-wrap: wrap;
+}
+.bl{
+    height: 230px;
+    font-size: 34px;
+    letter-spacing: 5px;
+    color: #ffffff;
+    font-weight: 700;
+    padding: 150px 0 0 50px;
+
+}
+.block1{
+    flex-basis: 30%;
+    background: url(../images_lesson7/block1.png) no-repeat #abb6ca center/cover;
+    border-right: 8px solid #fff;
+    
+}
+.block2{
+    flex-basis: 40%;
+    background: url(../images_lesson7/block2.png) no-repeat #abb6ca center/cover;
+    border-right: 8px solid #fff;
+    
+}
+.block3{
+    flex-basis: 30%;
+    background: url(../images_lesson7/block3.png) no-repeat #abb6ca center/cover;
+}
+.block4{
+    flex-basis: 30%;
+    background: url(../images_lesson7/block4.png) no-repeat #abb6ca center/cover;
+    border-right: 8px solid #fff;
+    border-top: 8px solid #fff;
+
+}
+.block5{
+    flex-basis: 40%;
+    background: url(../images_lesson7/block5.png) no-repeat #abb6ca center/cover;
+    border-right: 8px solid #fff;
+    border-top: 8px solid #fff;
+
+}
+.block6{
+    flex-basis: 30%;
+    background: url(../images_lesson7/block6.png) no-repeat #abb6ca center/cover;
+    border-top: 8px solid #fff;
+
+}
+.contact{
+    padding: 160px 0 60px;
+    background-color: #fff;
+}
+.contact-us{
+    width: 70%;
+    height: 58px;
+    background-color: #3c3c3c;
+    border: 2px solid #3c3c3c;
+    font-size: 16px;
+    letter-spacing: 3px;
+    color: #ffffff;
+    font-weight: 400;
+    margin: 45px auto 48px;
+}
+.footer{
+    text-align: center;
+    font-size: 14px;
+    color: #3c3c3c;
+    font-weight: 400;
+}
+.footer_logo{
+    position: relative;
+}
+.allrights{
+    margin-left: 30px;
+    position: relative;
+    top: -10px;
+}
